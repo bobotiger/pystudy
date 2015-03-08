@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<catalog>
+	<book isbn="1-56592-724-9">
+		<title>The Cathedral and the Bazaar</title>
+		<author>Eric S. Raymond</author>
+	</book>
+ 	<book isbn="1-56592-051-1">
+		<title>Making TeX Work</title>
+		<author>Norman Walsh</author>
+	</book>
+	<!-- imagine more entries here... -->
+</catalog>
+
+

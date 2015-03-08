@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+#art.py
+
+import sys
+from xml.sax import make_parser
+from handlers import ArticleHandler
+
+ch = ArticleHandler()			#创建内容事件处理器对象
+saxparser = make_parser()   	#创建SAX解析器对象
+
+saxparser.setContentHandler(ch) #为解析器制定事件处理器
+saxparser.parse(sys.stdin)      #从系统标准输入接收XML文档进行解析 
+
+if ch.isMatch:					#如果ch.isMatch为真
+    print "News Item!"          #打印输出
+    print "Title:",ch.title
+    print "Body:",ch.body

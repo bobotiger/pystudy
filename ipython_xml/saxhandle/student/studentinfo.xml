@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<students>
+	<student sid="p001">
+		<name>zhangshan</name>
+		<age>20</age>
+	</student>
+	
+	<student sid="p002">
+		<name>李四</name>
+		<age>28</age>
+	</student>
+</students>
